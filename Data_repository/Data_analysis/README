@@ -1,0 +1,11 @@
+DATA-SPECIFIC INFORMATION FOR: [for_loop_analysis.R]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables:-
+2. Number of cases/rows:-
+3. Variable List:
+<list variable name(s), description(s), unit(s)and value labels as 
+appropriate for each>
+
+The Rstudio file with a for loop running through the whole analysis 
+
