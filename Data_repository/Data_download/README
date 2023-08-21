@@ -1,0 +1,26 @@
+DATA-SPECIFIC INFORMATION FOR: [Loading_data&Defining_death.R]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables:-
+2. Number of cases/rows:-
+3. Variable List:
+<list variable name(s), description(s), unit(s)and value labels as 
+appropriate for each>
+
+The Rstudio file with the data download of each individual bird and the code used to define the date of death for each sick bird. 
+
+DATA-SPECIFIC INFORMATION FOR: [Stackedtotal.RData]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables: 7
+2. Number of cases/rows: 97604
+3. Variable List:
+-trackId
+-timestamps
+-device_id
+-datatype
+-X_coordinate
+-Y_coordinate 
+-proj4string
+
+An RData file containing the raw stacked data of all sick and healhty birds from the Scotland dataset
