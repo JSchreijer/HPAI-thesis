@@ -1,1 +1,120 @@
+This readme.txt file was generated on 2023-08-21 by JITSKE SCHREIJER
+
+
+GENERAL INFORMATION
+1. Title of Dataset:Data_repository
+
+2. Author Information
+
+A. Principal Investigator Contact Information
+Name:Jitske Schreijer
+Institution:University of Amsterdam 
+Address:
+Email:jitskeannika@gmail.com
+
+B. Assessor Contact Information
+Name:Eldar Rakhimberdiev
+Institution:Institute for Biodiversity and Ecosystem Dynamics (IBED)
+Address:
+Email:e.n.rakhimberdiev@uva.nl
+
+C. Examiner Contact Information
+Name:B.A.Nolet
+Institution:Institute for Biodiversity and Ecosystem Dynamics (IBED)
+Address:
+Email:b.a.nolet@uva.nl
+
+3. Date of data collection (single date, range, approximate date) 
+<suggested format YYYY-MM-DD>: 2023-02-09 to 2023-08-23
+
+4. Geographic location of data collection <latitude, longitude, or 
+city/region, State, Country, as appropriate>:
+-Solway Firth, Scotland
+-Svalbard
+-Netherlands
+-Germany
+
+5. Information about funding sources that supported the collection of the 
+data:
+DATA & FILE OVERVIEW
+1. File List:
+/Data_analysis contains:
+-for_loop_analysis.R - contains the for loop with the entire data analysis 
+-results.RData - contains a dataframe with all results 
+-significance testing - contains all code used during significance testing of the results
+
+/Data_download contains:
+-loading_data&defining_death.R - contains code to download the raw data and the code to define date of death for each bird
+-stacked_netherlands.RData - all stacked birds from the Netherlands dataset
+-stackedtotal.RData - all stacked birds from the Scotland dataset
+- for_loop_data_download.R - contains the for loop used to download the raw data quicker
+- movementstack@tableA.xlsx - contains the dates of death, and selected periods for all statuses (sick, not yet sick and healhty)
+- packages.R - contains all used packages during this analysis
+
+/Onrintracker manual contains: 
+-HPAI2021_dead_geese_info.xlsx - contains the information on the timiing and location of the dead birds
+-Ornitracker_user_manual_v4_neck_bands - contains the manual for the ornitracker neck bands that were used during this analysis
+- Svalbard_Transmitter_settings - contains the specific settings of the ornitrackers during this research
+
+/Literature contains: 
+All pdfs of the literature that was used during this research. 
+
+
+
+2. Relationship between files, if important:
+-
+
+3. Additional related data collected that was not included in the current 
+data package: -
+
+4. Are there multiple versions of the dataset? no
+
+A. If yes, name of file(s) that was updated: -
+i. Why was the file updated?
+ii. When was the file updated?
+
+
+METHODOLOGICAL INFORMATION
+<if all can be found in the material and methods of your paper, this 
+section can be omitted>
+1. Description of methods used for collection/generation of data: See method in paper 
+<Include links or references to publications or other documentation
+ 
+containing experimental design or protocols used in data collection>
+2. Methods for processing the data:
+<describe how the submitted data were generated from the raw or collected 
+data>
+3. Instrument- or software-specific information needed to interpret the 
+data: Rstudio with the following packages 
+library(moveVis)
+library(move)
+library(reshape2)
+library(ggmap)
+require(mapproj)
+library(ggplot2)
+require(scales)
+library(moments)
+library(Rfast)
+library(readxl)
+library(mixdist)
+library(adehabitatHR)
+library(dplyr)
+library(plyr)
+library(ctmm)
+library(sf)
+library(tidyverse)
+library(ggpubr)
+library(readxl)
+library(e1071)
+library(wk)
+<include full name and version of software, and any necessary packages or 
+libraries needed to run scripts>
+
+
+6. Describe any quality-assurance procedures performed on the data:
+ 
+
+7. People involved with sample collection, processing, analysis and/or 
+submission: Larry Griffin, Margje de Jong, Mo Verhoeven, Hans Linssen and Michiel Boom
+
 
