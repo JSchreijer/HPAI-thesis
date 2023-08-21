@@ -24,3 +24,49 @@ you use excel you can prepare this section in the metadata worksheet>
 -proj4string
 
 An RData file containing the raw stacked data of all sick and healhty birds from the Scotland dataset
+
+DATA-SPECIFIC INFORMATION FOR: [Stacked_Netherlands.RData]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables: 7
+2. Number of cases/rows: 97604
+3. Variable List:
+-trackId
+-timestamps
+-device_id
+-datatype
+-X_coordinate
+-Y_coordinate 
+-proj4string
+
+An RData file containing the raw stacked data of all sick and healhty birds from the Netherlands & Germany dataset
+
+DATA-SPECIFIC INFORMATION FOR: [movementstack@tableA.xlsx]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+
+-device_id	
+-event_type	
+-look
+start_date
+-end_date	
+-look_at_id
+
+Data format: 
+[device_id]_[event_type]_[look]_[start_date]_[end_date]_[look_at_id]
+
+An Excel file containing the device id of each sick bird, creating a period for the sick period and not yet sick period of each bird, together with a period of a healhty bird during the same timeframe. 
+
+DATA-SPECIFIC INFORMATION FOR: [packages.R]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables:-
+2. Number of cases/rows:-
+3. Variable List:
+<list variable name(s), description(s), unit(s)and value labels as 
+appropriate for each>
+
+The Rstudio file with the packages that were used during this analysis. 
+
+
+
