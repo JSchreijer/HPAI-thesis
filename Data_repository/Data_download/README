@@ -41,6 +41,17 @@ you use excel you can prepare this section in the metadata worksheet>
 
 An RData file containing the raw stacked data of all sick and healhty birds from the Netherlands & Germany dataset
 
+DATA-SPECIFIC INFORMATION FOR: [for_loop_data_download.R]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables:-
+2. Number of cases/rows:-
+3. Variable List:
+<list variable name(s), description(s), unit(s)and value labels as 
+appropriate for each>
+
+The Rstudio file with the data download of each individual in a for loop
+
 DATA-SPECIFIC INFORMATION FOR: [movementstack@tableA.xlsx]
 <repeat this section for each dataset, folder or file, as appropriate; if 
 you use excel you can prepare this section in the metadata worksheet>
