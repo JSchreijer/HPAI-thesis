@@ -9,3 +9,25 @@ appropriate for each>
 
 The Rstudio file with a for loop running through the whole analysis 
 
+DATA-SPECIFIC INFORMATION FOR: [results.RData]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables:8
+2. Number of cases/rows:42
+3. Variable List:
+<list variable name(s), description(s), unit(s)and value labels as 
+appropriate for each>
+-device_id
+-event 
+-skewness
+-variance
+-autocorrelation
+-home-range
+-mcp
+-home_range_ML
+
+Data format: 
+[device_id]_[event]_[skewnness]_[variance]_[autocorrelation]_[home_range]_[mcp]_[home_range-ML]
+
+An excel file containing all the results that were obtained with the for loop. These are the results for both the Scotland and Netherlands datasets together. With the scotland dataset from row 1 to 22 and the Netherlands dataset the remaining rows.
+The event describes the status of each variable, namely sick, not yet sick, or healhty. 
