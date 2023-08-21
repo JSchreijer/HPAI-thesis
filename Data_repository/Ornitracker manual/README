@@ -1,0 +1,53 @@
+DATA-SPECIFIC INFORMATION FOR: [HPAI2021_dead_geese_info.R]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables:7
+2. Number of cases/rows:22
+3. Variable List:
+<list variable name(s), description(s), unit(s)and value labels as 
+appropriate for each>
+-device_id
+-metal	ring
+-sex	
+-tag _recovered	
+-death_remarks	
+-Breeding_location	
+-data_owner
+
+Data format: 
+[device_id]_[metal_ring]_[sex]_[tag_recoverd]_[death_remarks]_[breeding_location]_[data_owner]
+
+An excel file containing all the information on the collection of the trackers and remarks on the time of death. 
+- Dead_geese: Information on geese that were found dead or are assumed to have died during the avian influenza outbreak on the Solway Firth. The dataset contains data from both geese that breed and were ringed on Svalbard and geese that breed locally in the UK (Loch Leven) and were ringed in the UK. 
+- Live_geese: Information on geese that survived the winter and migrated North in spring. Only Svalbard geese. If necessary, I can see if Larry has data of Loch Leven geese that survived the winter.
+
+DATA-SPECIFIC INFORMATION FOR: [OrniTrack_user_manual_v4_neck_collars.pdf]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables:-
+2. Number of cases/rows:-
+3. Variable List:
+<list variable name(s), description(s), unit(s)and value labels as 
+appropriate for each>
+
+A pdf file containing background info on the transmitter and explanation of column names in .csv data files.
+
+DATA-SPECIFIC INFORMATION FOR: [Svalbard_Transmitter_settings2021-2022.xls]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables:2
+2. Number of cases/rows:18
+3. Variable List:
+-setting
+-Out of zones
+<list variable name(s), description(s), unit(s)and value labels as 
+appropriate for each>
+
+Data format: 
+[setting]_[Out_of_zones]
+
+
+A excel file containing background info on transmitter settings winter 2021 – spring 2022
+
+
+
