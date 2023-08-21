@@ -31,3 +31,15 @@ Data format:
 
 An excel file containing all the results that were obtained with the for loop. These are the results for both the Scotland and Netherlands datasets together. With the scotland dataset from row 1 to 22 and the Netherlands dataset the remaining rows.
 The event describes the status of each variable, namely sick, not yet sick, or healhty. 
+
+DATA-SPECIFIC INFORMATION FOR: [significance_testing.R]
+<repeat this section for each dataset, folder or file, as appropriate; if 
+you use excel you can prepare this section in the metadata worksheet>
+1. Number of variables:-
+2. Number of cases/rows:-
+3. Variable List:
+<list variable name(s), description(s), unit(s)and value labels as 
+appropriate for each>
+
+The Rstudio file with all significance tests that were run on the results.RData table 
+
